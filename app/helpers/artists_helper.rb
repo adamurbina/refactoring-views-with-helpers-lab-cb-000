@@ -1,7 +1,7 @@
 module ArtistsHelper
 
   def display_artist(song)
-    if song.artist?
+    if song.artist
       puts("reached nil")
       edit_song_path(song)
     else
