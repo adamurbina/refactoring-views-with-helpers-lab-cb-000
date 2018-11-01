@@ -2,11 +2,12 @@ module ArtistsHelper
 
   def display_artist(song)
     if song.artist
-      puts("reached nil")
-      edit_song_path(song)
-    else
       puts("reached artsit_path branch")
       artist_path(song.artist)
+    else
+
+      puts("reached nil")
+      edit_song_path(song)
     end
   end
 end
